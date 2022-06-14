@@ -2,7 +2,6 @@ package dto.motion;
 
 import dto.Packet;
 import enums.PacketType;
-import java.math.BigInteger;
 import java.util.List;
 import lombok.Getter;
 
@@ -19,7 +18,7 @@ public class PacketMotionData extends Packet {
       int gameMinorVersion,
       int packetVersion,
       PacketType packetType,
-      BigInteger sessionUID,
+      String sessionUID,
       double sessionTime,
       int playerCarIndex,
       int secondaryPlayerCarIndex,

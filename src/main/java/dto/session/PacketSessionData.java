@@ -7,7 +7,6 @@ import enums.SafetyCar;
 import enums.SessionType;
 import enums.Track;
 import enums.Weather;
-import java.math.BigInteger;
 import java.util.List;
 import lombok.Getter;
 
@@ -34,6 +33,7 @@ public class PacketSessionData extends Packet {
   private final boolean onlineGame;
   private final int numberOWeatherForecasts;
   private final List<WeatherForecastSample> weatherForecastSamples;
+
   public PacketSessionData(
       String id,
       Long frameIdentifier,
@@ -42,7 +42,7 @@ public class PacketSessionData extends Packet {
       int gameMinorVersion,
       int packetVersion,
       PacketType packetType,
-      BigInteger sessionUID,
+      String sessionUID,
       double sessionTime,
       int playerCarIndex,
       int secondaryPlayerCarIndex,
