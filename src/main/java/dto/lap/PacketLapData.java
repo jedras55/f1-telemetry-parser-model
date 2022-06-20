@@ -9,7 +9,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class PacketLapData extends Packet {
-  private final List<LapData> allCarsLapData;
+  private List<LapData> allCarsLapData;
 
   public PacketLapData(
       Long frameIdentifier,

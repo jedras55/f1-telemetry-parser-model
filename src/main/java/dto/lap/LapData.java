@@ -10,34 +10,34 @@ import lombok.Setter;
 @Getter
 @Setter
 public class LapData {
-  private final Long lastLapTimeInMS;
-  private final Long currentLapTimeInMS;
-  private final int sector1TimeInMS;
-  private final int sector2TimeInMS;
-  private final double lapDistance;
+  private Long lastLapTimeInMS;
+  private Long currentLapTimeInMS;
+  private int sector1TimeInMS;
+  private int sector2TimeInMS;
+  private double lapDistance;
 
-  private final double totalDistance;
+  private double totalDistance;
 
-  private final double safetyCarDelta;
-  private final int carPosition;
-  private final int currentLapNum;
-  private final PitStatus pitStatus;
-  private final int numPitStops;
-  private final Sector sector;
-  private final boolean currentLapInvalid;
-  private final int penalties;
-  private final int warnings;
-  private final int numUnservedDriveThroughPens;
-  private final int numUnservedStopGoPens;
-  private final int gridPosition;
-  private final DriverStatus driverStatus;
+  private double safetyCarDelta;
+  private int carPosition;
+  private int currentLapNum;
+  private PitStatus pitStatus;
+  private int numPitStops;
+  private Sector sector;
+  private boolean currentLapInvalid;
+  private int penalties;
+  private int warnings;
+  private int numUnservedDriveThroughPens;
+  private int numUnservedStopGoPens;
+  private int gridPosition;
+  private DriverStatus driverStatus;
 
-  private final ResultStatus resultStatus;
+  private ResultStatus resultStatus;
 
-  private final boolean pitLaneTimerActive;
-  private final int pitLaneTimeInLaneInMS;
-  private final int pitStopTimerInMS;
-  private final boolean pitStopShouldServePen;
+  private boolean pitLaneTimerActive;
+  private int pitLaneTimeInLaneInMS;
+  private int pitStopTimerInMS;
+  private boolean pitStopShouldServePen;
 
   public LapData(
       Long lastLapTimeInMS,
