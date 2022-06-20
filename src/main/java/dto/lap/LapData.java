@@ -5,8 +5,10 @@ import enums.PitStatus;
 import enums.ResultStatus;
 import enums.Sector;
 import lombok.Getter;
+import lombok.Setter;
 
 @Getter
+@Setter
 public class LapData {
   private final Long lastLapTimeInMS;
   private final Long currentLapTimeInMS;

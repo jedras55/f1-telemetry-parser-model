@@ -4,13 +4,14 @@ import dto.Packet;
 import enums.PacketType;
 import java.util.List;
 import lombok.Getter;
+import lombok.Setter;
 
 @Getter
+@Setter
 public class PacketLapData extends Packet {
   private final List<LapData> allCarsLapData;
 
   public PacketLapData(
-
       Long frameIdentifier,
       int packetFormat,
       int gameMajorVersion,
@@ -23,7 +24,6 @@ public class PacketLapData extends Packet {
       int secondaryPlayerCarIndex,
       List<LapData> allCarsLapData) {
     super(
-
         frameIdentifier,
         packetFormat,
         gameMajorVersion,
