@@ -35,7 +35,7 @@ public class PacketSessionData extends Packet {
   private final List<WeatherForecastSample> weatherForecastSamples;
 
   public PacketSessionData(
-      String id,
+
       Long frameIdentifier,
       int packetFormat,
       int gameMajorVersion,
@@ -68,8 +68,7 @@ public class PacketSessionData extends Packet {
       int numberOWeatherForecasts,
       List<WeatherForecastSample> weatherForecastSamples) {
     super(
-        id,
-        frameIdentifier,
+      frameIdentifier,
         packetFormat,
         gameMajorVersion,
         gameMinorVersion,

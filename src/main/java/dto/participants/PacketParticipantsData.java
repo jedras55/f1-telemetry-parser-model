@@ -11,7 +11,6 @@ public class PacketParticipantsData extends Packet {
   private final List<ParticipantData> participants;
 
   public PacketParticipantsData(
-      String id,
       Long frameIdentifier,
       int packetFormat,
       int gameMajorVersion,
@@ -25,7 +24,6 @@ public class PacketParticipantsData extends Packet {
       int numberOfCars,
       List<ParticipantData> participants) {
     super(
-        id,
         frameIdentifier,
         packetFormat,
         gameMajorVersion,

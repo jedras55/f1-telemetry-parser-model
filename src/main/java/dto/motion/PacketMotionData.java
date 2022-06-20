@@ -11,7 +11,6 @@ public class PacketMotionData extends Packet {
   ExtraCarMotionData extraCarMotionData;
 
   public PacketMotionData(
-      String id,
       Long frameIdentifier,
       int packetFormat,
       int gameMajorVersion,
@@ -25,7 +24,6 @@ public class PacketMotionData extends Packet {
       List<CarMotionData> carMotionDataList,
       ExtraCarMotionData extraCarMotionData) {
     super(
-        id,
         frameIdentifier,
         packetFormat,
         gameMajorVersion,

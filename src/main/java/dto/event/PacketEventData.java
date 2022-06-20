@@ -11,7 +11,6 @@ public class PacketEventData extends Packet {
   private final Event event;
 
   public PacketEventData(
-      String id,
       Long frameIdentifier,
       int packetFormat,
       int gameMajorVersion,
@@ -26,7 +25,6 @@ public class PacketEventData extends Packet {
       EventType eventType,
       Event event) {
     super(
-        id,
         frameIdentifier,
         packetFormat,
         gameMajorVersion,

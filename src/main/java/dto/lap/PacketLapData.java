@@ -7,10 +7,10 @@ import lombok.Getter;
 
 @Getter
 public class PacketLapData extends Packet {
-  public final List<LapData> allCarsLapData;
+  private final List<LapData> allCarsLapData;
 
   public PacketLapData(
-      String id,
+
       Long frameIdentifier,
       int packetFormat,
       int gameMajorVersion,
@@ -23,7 +23,7 @@ public class PacketLapData extends Packet {
       int secondaryPlayerCarIndex,
       List<LapData> allCarsLapData) {
     super(
-        id,
+
         frameIdentifier,
         packetFormat,
         gameMajorVersion,

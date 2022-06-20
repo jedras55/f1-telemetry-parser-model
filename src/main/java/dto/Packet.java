@@ -7,7 +7,6 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public class Packet {
-  private final String id;
   private final Long frameIdentifier;
   private final int packetFormat;
   private final int gameMajorVersion;
