@@ -10,8 +10,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class LapData {
-  private Long lastLapTimeInMS;
-  private Long currentLapTimeInMS;
+  private long lastLapTimeInMS;
+  private long currentLapTimeInMS;
   private int sector1TimeInMS;
   private int sector2TimeInMS;
   private double lapDistance;
@@ -40,8 +40,8 @@ public class LapData {
   private boolean pitStopShouldServePen;
 
   public LapData(
-      Long lastLapTimeInMS,
-      Long currentLapTimeInMS,
+      long lastLapTimeInMS,
+      long currentLapTimeInMS,
       int sector1TimeInMS,
       int sector2TimeInMS,
       double lapDistance,

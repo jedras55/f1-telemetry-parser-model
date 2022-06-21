@@ -12,7 +12,7 @@ public class PacketLapData extends Packet {
   private List<LapData> allCarsLapData;
 
   public PacketLapData(
-      Long frameIdentifier,
+      long frameIdentifier,
       int packetFormat,
       int gameMajorVersion,
       int gameMinorVersion,

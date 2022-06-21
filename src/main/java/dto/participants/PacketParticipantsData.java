@@ -11,7 +11,7 @@ public class PacketParticipantsData extends Packet {
   private final List<ParticipantData> participants;
 
   public PacketParticipantsData(
-      Long frameIdentifier,
+      long frameIdentifier,
       int packetFormat,
       int gameMajorVersion,
       int gameMinorVersion,

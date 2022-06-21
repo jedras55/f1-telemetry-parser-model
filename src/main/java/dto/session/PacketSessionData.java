@@ -36,7 +36,7 @@ public class PacketSessionData extends Packet {
 
   public PacketSessionData(
 
-      Long frameIdentifier,
+      long frameIdentifier,
       int packetFormat,
       int gameMajorVersion,
       int gameMinorVersion,

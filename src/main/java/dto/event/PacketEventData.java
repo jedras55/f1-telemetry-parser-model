@@ -11,7 +11,7 @@ public class PacketEventData extends Packet {
   private final Event event;
 
   public PacketEventData(
-      Long frameIdentifier,
+      long frameIdentifier,
       int packetFormat,
       int gameMajorVersion,
       int gameMinorVersion,
