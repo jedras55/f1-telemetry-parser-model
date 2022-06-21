@@ -11,7 +11,7 @@ public class PacketMotionData extends Packet {
   ExtraCarMotionData extraCarMotionData;
 
   public PacketMotionData(
-      long frameIdentifier,
+      int frameIdentifier,
       int packetFormat,
       int gameMajorVersion,
       int gameMinorVersion,
