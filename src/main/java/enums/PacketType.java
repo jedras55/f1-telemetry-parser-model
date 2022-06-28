@@ -15,6 +15,8 @@ public enum PacketType {
   CAR_STATUS("Car status"),
   FINAL_CLASSIFICATION("Final classification"),
   LOBBY_INFO("Lobby info"),
+  CAR_DAMAGE("Car damage"),
+  SESSION_HISTORY("Session history"),
   UNKNOWN("Unknown");
 
   @Getter private final String description;
