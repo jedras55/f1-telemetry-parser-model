@@ -9,6 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class Packet {
+
   private int frameIdentifier;
   private int packetFormat;
   private int gameMajorVersion;
