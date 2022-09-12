@@ -10,6 +10,6 @@ public class ParticipantData {
   int driverId;
   int teamId;
   int raceNumber;
-  int nationality;
+  String nationality;
   String name;
 }
