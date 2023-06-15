@@ -17,6 +17,8 @@ public enum PacketType {
   LOBBY_INFO("Lobby info"),
   CAR_DAMAGE("Car damage"),
   SESSION_HISTORY("Session history"),
+  TYRE_SETS("Tyre sets"),
+  MOTION_EX("Motion ex"),
   UNKNOWN("Unknown");
 
   @Getter private final String description;
